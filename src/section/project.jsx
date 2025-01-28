@@ -29,7 +29,7 @@ function Projects() {
         </h2>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -48,7 +48,7 @@ function Projects() {
                 <h3 className="text-2xl font-semibold text-base-content">
                   {project.title}
                 </h3>
-                
+
                 {/* Project Description */}
                 <p className="mt-2 text-base-content/80">
                   {project.description}

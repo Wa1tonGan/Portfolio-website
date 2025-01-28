@@ -7,7 +7,7 @@ function Education() {
           <h2 className="text-4xl md:text-5xl font-bold text-center pb-3 mb-9 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
           Journey
         </h2>
-        <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <ul class="timeline timeline-snap-icon max-lg:timeline-compact timeline-vertical">
             <li>
                 <div class="timeline-middle">
                 <svg

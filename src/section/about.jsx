@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <section id="about" className="py-20 bg-gray-100">
-          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2  items-center">
+          <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2  items-center">
             {/* Profile Image */}
             <div className="w-64 h-64 bg-gray-300 rounded-full overflow-hidden mx-auto">
               <img
