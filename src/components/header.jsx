@@ -28,18 +28,26 @@ const Header = () => {
         <ul className="space-y-4 text-center">
           <li>
             <button
-              onClick={() => handleScroll('home')}
-              className="w-full px-6 py-2 hover:bg-gray-700 transition duration-300"
-            >
-              Home
-            </button>
-          </li>
-          <li>
-            <button
               onClick={() => handleScroll('about')}
               className="w-full  px-6 py-2 hover:bg-gray-700 transition duration-300"
             >
               About
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleScroll('technical-skills')}
+              className="w-full px-6 py-2 hover:bg-gray-700 transition duration-300"
+            >
+              Skills
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleScroll('Journey')}
+              className="w-full px-6 py-2 hover:bg-gray-700 transition duration-300"
+            >
+              Journey
             </button>
           </li>
           <li>
@@ -50,21 +58,13 @@ const Header = () => {
               Projects
             </button>
           </li>
-          <li>
-            <button
-              onClick={() => handleScroll('contact')}
-              className="w-full px-6 py-2 hover:bg-gray-700 transition duration-300"
-            >
-              Contact
-            </button>
-          </li>
         </ul>
       </nav>
 
       {/* Social Links */}
       <div className="mt-auto flex space-x-4">
         <a
-          href="https://www.linkedin.com/in/your-profile/"
+          href="https://www.linkedin.com/in/walton-gan-312241349/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition duration-300"

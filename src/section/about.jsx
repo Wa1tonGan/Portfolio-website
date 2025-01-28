@@ -20,7 +20,9 @@ const About = () => {
               </h2>
               <p className="mt-4 text-gray-700 text-justify">
               I’m Gan, a student passionate about learning and growing in the tech world.I’m excited to dive deeper into development and ready to explore as many programming languages and technologies as possible, always eager to take on new challenges.
-              Outside of coding, I plenty of activities that help me stay creative and balanced. I’m looking forward to contributing my skills to impactful projects and growing as a developer. 
+              </p>
+              <br />
+              <p>Outside of coding, I plenty of activities that help me stay creative and balanced. I’m looking forward to contributing my skills to impactful projects and growing as a developer.
               </p>
     
              
